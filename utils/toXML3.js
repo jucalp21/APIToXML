@@ -5,7 +5,9 @@ function getXMLFormat3(arr) {
 	let xmlObj = {
 		'?xml version=\"1.0\" encoding=\"UTF-8\"?' : null,
 
-		entries: arr
+		entries: {
+			entrie: arr
+		}
 	}
 
 	return O2X(xmlObj);

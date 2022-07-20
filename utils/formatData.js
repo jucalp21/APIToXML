@@ -4,12 +4,12 @@ function getFormatedData(responseArr) {
 
 	responseArr.entries.forEach(entry => {
 		let newEntrie = {
-			entrie: {
+			
 				title: 				entry.API,
 				description: 	entry.Description,
 				category: 		entry.Category,
 				url: 					entry.Link
-			}
+			
 		}
 
 		formatedDataArr.push(newEntrie);
